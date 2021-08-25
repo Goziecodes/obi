@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8 " />
+    <meta name="viewport" content="width= device-width, initial- scale= 1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
+    <link rel="stylesheet" id="ppstyle" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="./css/animate.css" />
+    <link rel="stylesheet" href="./css/et-line.min.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Montserrat&subset=latin,latin-ext"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Oswald&subset=latin,latin-ext"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="./js/jquery-2.1.0.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/blocs.js"></script>
+    <script src="./js/jqBootstrapValidation.js"></script>
+    <script src="./js/formHandler.js"></script>
+    <title>nicky</title>
+
+    <style>
+      body {
+        margin: 0px;
+      }
+
+      #intro {
+        padding: 10px;
+        width: 100%;
+      }
+
+      #greeting {
+        text-align: center;
+        font-family: "Courier New", Courier, monospace;
+        text-decoration: underline wavy mediumpurple;
+        text-underline-offset: 6px;
+        margin-bottom: 25px;
+      }
+
+      .message {
+        font-size: 30px;
+        text-align: center;
+        color: hotpink;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      .pictures {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+      }
+
+      .box1 {
+        width: 180px;
+        /* background-color: green; */
+        height: 200px;
+        margin: auto;
+        border-radius: 50%;
+        background: url("../images/obi1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .box2 {
+        width: 180px;
+        background-color: green;
+        height: 200px;
+        margin: auto;
+        border-radius: 50%;
+        background: url("./images/obi2.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .box3 {
+        width: 180px;
+        background-color: green;
+        height: 200px;
+        margin: auto;
+        border-radius: 50%;
+        background: url("./images/obi3.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        /* border-radius: 50%; */
+        /* height: 30%; */
+      }
+
+      .video-container {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .video {
+        height: 350px;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="intro">
+      <h1 id="greeting">Happy Birthday Uncle BoBo !!</h1>
+      <p class="message">
+        many more years uncle bobo Happy Birthday uncle bobo I love you!
+      </p>
+    </div>
+
+    <div class="pictures">
+      <div class="box1">
+        <!-- <img src="./images/obi1.jpg" /> -->
+      </div>
+      <div class="box3">
+        <!-- <img src="./images/obi3.jpg" /> -->
+      </div>
+      <div class="box2">
+        <!-- <img src="./images/obi2.jpg" /> -->
+      </div>
+    </div>
+
+    <div class="video-container">
+      <video class="video" controls autoplay>
+        <source src="./nickyvideo.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <script defer src="js/confetti.js"></script>
+  </body>
+</html>
